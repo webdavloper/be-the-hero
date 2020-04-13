@@ -1,0 +1,21 @@
+{
+  "sqltools.connections": [
+    {
+      "askForPassword": false,
+      "database": "fullstackphp",
+      "dialect": "MariaDB",
+      "name": "localhost (MARIA DB)",
+      "port": 3306,
+      "server": "localhost",
+      "username": "root"
+    },
+    {
+      "database": "${workspaceFolder}\\src/database/db.sqlite",
+      "dialect": "SQLite",
+      "isActive": false,
+      "isConnected": false,
+      "name": "semana_omnistack"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
